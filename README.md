@@ -25,8 +25,24 @@ Set aside a portion of my bananas as "test" bananas to make sure I don't overfit
 
 I purchased fifty bananas and laid them across black garbage bags in my home office, which I believe is an ideal location because it has shutters as well as an overhead light with adjustable brightness levels and color temperature levels.  With three brightness levels and three temperature levels, I get nine different images of each banana right out of the gate before turning to any kind of "data augmentation".  If my bananas were to turn brown in five days, that gives me 50 bananas x 9 lighting levels x 5 days = 2250 raw images.
 
-2025 Aug 27 7:30 PM - first photos (I noted that glare on the black plastic background is apparent - idk if this will pose a challenge further down the line)
+####2025 Aug 27 7:30 PM
+
+First photos (I noted that glare on the black plastic background is apparent - idk if this will pose a challenge further down the line)
 I also noted that my phone camera seemed to be working overtime to normalize the photos to account for different lighting conditions.  This reminds me that the equipment used to photograph the bananas can make a difference, especially if we had many users using this app, each with their own cameras.
+
+####2025 Sep 11 7:30 PM
+
+I took the last photos of my now-rotten bananas before sending them out for trash pickup.
+
+Apparently, I will be learning a bit about photography along the way.
+
+I may be able to work with the photos I have, but I fully expect to be repeating this step with new bananas.
+
+For starters, I'm learning a bit about the reasons why professionals sometimes take photos against a green or blue background and not a black one!  In this case, black is problematic because the black spots on a rotten banana look similar to the background.  I already mentioned glare and how I might use a polarizing lens cover to compensate for it, but considering further, I might want some photos with glare and some without for training purposes because in real life, some photos have glare!
+
+Also, I mentioned before the idea of varying the lighting conditions to get different photos of the same bananas, but I found that in practice, my phone camera automatically adjusts the lighting levels, which makes photos at different brightnesses look about the same, but that being said, the differences between photos taken under different color temperatures are different, just not as obviously so as they are to the naked eye!
+
+Life is very busy, and I originally didn't want to mention this here, but as I'm doing this, I am recovering from major surgery, which has made it difficult enough to even do my day job, so progress here will be slow until I'm feeling more energetic.  The healing process has been torturously slow and frankly, while I'm thrilled with the surgeon's work as my respiratory condition was making my life difficult, I feel that he gave me the green light to go back to work too soon.  Life is like that sometimes.
 
 ## Data cleaning and augmentation
 
