@@ -59,6 +59,12 @@ def train_model(days, epochs, batch_size):
 
     model = keras.Sequential([
         keras.Input(shape=(224, 224, 3)),
+
+        keras.layers.RandomFlip("horizontal_and_vertical"),
+        keras.layers.RandomRotation(0.5, fill_mode="reflect"),
+        keras.layers.RandomTranslation(0.05, 0.05, fill_mode="reflect"),
+        keras.layers.RandomZoom(0.1, fill_mode="reflect"),
+
         keras.layers.Rescaling(1./255),
         keras.layers.Conv2D(filters=32, kernel_size=3, padding="same", activation="relu"),
         keras.layers.MaxPooling2D(pool_size=2),
@@ -94,6 +100,8 @@ def train_model(days, epochs, batch_size):
             verbose=1)
 
     print(model.evaluate(x_test, y_test, verbose=1))
+
+    model.save("banana_model.keras")
 
 image_labels = [get_image_label(file.name) for file in result_list]
 image_arrays = [get_image_array(file) for file in result_list]
